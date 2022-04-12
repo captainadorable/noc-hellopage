@@ -1,12 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { Layout } from './components/layout/layout'
+import { Hero } from './components/hero/hero'
+import { About } from './components/about/about'
+import { Mission } from './components/mission/mission'
+import { Vision } from './components/vision/vision'
+import { Pricing } from './components/pricing/pricing'
+import { Team } from './components/team/team'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layout title="NON-OFFICIAL">
+      <div className='lg:h-screen' id='home'>
+        <Hero />
+      </div>
+      <div className='lg:h-screen bg-[#f9f4ef]' id='about'>
+        <About />
+      </div>
+      <div className='lg:h-screen bg-[#f7efe6]' id='mission'>
+        <Mission />
+      </div>
+      <div className='lg:h-screen bg-[#f7ede3]' id='vision'>
+        <Vision />
+      </div>
+      <div className='lg:h-screen' id='pricing'>
+        <Pricing />
+      </div>
+      <div id='team' className=''>
+        <Team />
+      </div>
+    </Layout>
   </React.StrictMode>,
   document.getElementById('root')
 );

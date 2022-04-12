@@ -1,13 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@400;700&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@300;400;700&family=Lato:wght@300;400&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100;500&family=Bebas+Neue&family=Hind:wght@300;400;700&family=Lato:wght@300;400&family=Red+Hat+Display:wght@300;400;500&family=Roboto:wght@300;400;500&family=Teko:wght@300;400&display=swap');
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Red Hat Display';
+    background-color: #f7eee5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
 }
