@@ -64,7 +64,7 @@ export const Navbar = () => {
           ))}
         </div>
         <div>
-          <button class="bg-transparent hover:bg-blue-300 hover:text-white py-2 px-8 border border-blue-300 text-blue-300 hover:border-transparent rounded text-2xl">
+          <button onClick={() => window.location.replace(process.env.REACT_APP_PORTAL_URL || "/")} class="bg-transparent hover:bg-blue-300 hover:text-white py-2 px-8 border border-blue-300 text-blue-300 hover:border-transparent rounded text-2xl">
             Portala gir
           </button>
         </div>

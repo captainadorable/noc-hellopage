@@ -6,7 +6,7 @@ export const Team = () => {
         <div className="flex flex-col items-center space-y-16 pt-12">
             <div className="text-4xl lg:text-6xl" id="team">Ekip Üyeleri</div>
 
-            <div className="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-2 lg:gap-8 space-y-10 lg:space-y-0">
+            <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 xl:gap-8 md:space-y-0 md:gap-8 space-y-10 lg:space-y-0">
                 <TeamCard CardName="Muhammed Gürel" CardDepartment="Human Resources" CardDescription={desc} CardImage={""} CardMedia={["", "", ""]}/>
                 <TeamCard CardName="Muhammed Gürel" CardDepartment="Human Resources" CardDescription={desc} CardImage={""} CardMedia={["", "", ""]}/>
                 <TeamCard CardName="Muhammed Gürel" CardDepartment="Human Resources" CardDescription={desc} CardImage={""} CardMedia={["", "", ""]}/>

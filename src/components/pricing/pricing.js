@@ -2,7 +2,7 @@ import { PricingCard } from "./pricing-card";
 
 export const Pricing = () => {
   return (
-    <div className="pt-16 lg:pt-0 flex flex-col items-center space-y-16">
+    <div className="2xl:px-64 pt-16 lg:pt-36 flex flex-col items-center space-y-16 px-4">
       <div className="text-4xl lg:text-6xl" id="pricing">
         Fiyat Listesi
       </div>
