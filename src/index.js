@@ -14,16 +14,16 @@ import { Team } from './components/team/team'
 ReactDOM.render(
   <React.StrictMode>
     <Layout title="NON-OFFICIAL">
-      <div className='lg:h-screen' id='home'>
+      <div className='lg:h-screen pt-16' id='home'>
         <Hero />
       </div>
       <div className='lg:h-screen bg-[#f9f4ef]' id='about'>
         <About />
       </div>
-      <div className='lg:h-screen bg-[#f7efe6]' id='mission'>
+      <div className='lg:h-screen ' id='mission'>
         <Mission />
       </div>
-      <div className='lg:h-screen bg-[#f7ede3]' id='vision'>
+      <div className='lg:h-screen bg-[#f9f4ef]' id='vision'>
         <Vision />
       </div>
       <div className='lg:h-screen' id='pricing'>

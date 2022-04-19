@@ -10,7 +10,7 @@ export const PricingCard = ({CardName, CardColor, CardPrice}) => {
     }
 
     return (
-        <div className={`flex flex-col items-center bg-${CardColor} lg:w-2/5 lg:h-[6-rem] shadow-xl rounded-2xl overflow-visible h-[34rem]`}>
+        <div className={`flex flex-col items-center ${CardColor} lg:w-2/5 lg:h-[6-rem] shadow-xl rounded-2xl overflow-visible h-[34rem]`}>
             <div>
                 <div className="text-4xl text-center pt-12 w-64 pb-4">{CardName}</div>
                 <hr />

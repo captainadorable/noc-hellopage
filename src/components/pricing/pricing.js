@@ -8,9 +8,9 @@ export const Pricing = () => {
       </div>
 
       <div className="flex flex-col space-y-10 px-4 lg:space-y-0 lg:flex-row justify-center lg:space-x-8">
-        <PricingCard CardName="Beleş" CardColor="yellow-200" CardPrice="24" />
-        <PricingCard CardName="Pahalı" CardColor="yellow-100" CardPrice="31" />
-        <PricingCard CardName="Ucube" CardColor="yellow-300" CardPrice="67" />
+        <PricingCard CardName="Beleş" CardColor="bg-[#faf4ee]" CardPrice="24" />
+        <PricingCard CardName="Pahalı" CardColor="bg-[#faf4ee]" CardPrice="31" />
+        <PricingCard CardName="Ucube" CardColor="bg-[#faf4ee]" CardPrice="67" />
       </div>
     </div>
   );

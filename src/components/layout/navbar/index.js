@@ -7,6 +7,10 @@ export const Navbar = () => {
   
   const NavbarItems = [
     {
+      name: "Portal",
+      href: process.env.REACT_APP_PORTAL_URL,
+    },
+    {
       name: "Ana Sayfa",
       href: "#home",
     },
