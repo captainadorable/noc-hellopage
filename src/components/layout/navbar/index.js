@@ -7,6 +7,25 @@ export const Navbar = () => {
   
   const NavbarItems = [
     {
+      name: "Ana Sayfa",
+      href: "#home",
+    },
+    {
+      name: "Biz Kimiz?",
+      href: "#about",
+    },
+    {
+      name: "Paketler",
+      href: "#pricing",
+    },
+    {
+      name: "Ekip Üyeleri",
+      href: "#team",
+      last: true
+    }
+  ];
+  const NavbarItemsMobile = [
+    {
       name: "Portal",
       href: process.env.REACT_APP_PORTAL_URL,
     },
@@ -30,9 +49,9 @@ export const Navbar = () => {
   ];
 
   return (
-    <div>
+    <div className="sticky top-0">
       
-      <div className="flex flex-row py-8 justify-center space-x-16 items-center lg:hidden">
+      <div className="flex flex-row py-8 justify-center space-x-16 items-center bg-[#f7eee5] lg:hidden">
         <div><img src="/logo.png" width="144" height="55"></img></div>
         <button onClick={() => sidebarToggle(true)}><img src="/images/nav.svg" width="36"/></button>
       </div>
@@ -49,7 +68,7 @@ export const Navbar = () => {
             </div>
           </div>
           <div className="flex flex-col self-start pl-8 text-[#9ca3af] space-y-4">
-              {NavbarItems.map((item) => (
+              {NavbarItemsMobile.map((item) => (
                   <div key={item.name}><a href={item.href} onClick={() => sidebarToggle(false)}>{item.name}</a></div>
               ))}
           </div>
@@ -68,7 +87,7 @@ export const Navbar = () => {
           ))}
         </div>
         <div>
-          <button onClick={() => window.location.replace(process.env.REACT_APP_PORTAL_URL || "/")} class="bg-transparent hover:bg-blue-300 hover:text-white py-2 px-8 border border-blue-300 text-blue-300 hover:border-transparent rounded text-2xl">
+          <button onClick={() => window.location.href = process.env.REACT_APP_PORTAL_URL || "/"} className="bg-transparent hover:bg-blue-300 hover:text-white py-2 px-8 border border-blue-300 text-blue-300 hover:border-transparent rounded text-2xl">
             Portala gir
           </button>
         </div>

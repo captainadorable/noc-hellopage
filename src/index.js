@@ -14,7 +14,7 @@ import { Team } from './components/team/team'
 ReactDOM.render(
   <React.StrictMode>
     <Layout title="NON-OFFICIAL">
-      <div className='lg:h-screen pt-16' id='home'>
+      <div className='lg:h-screen pt-16 pb-8' id='home'>
         <Hero />
       </div>
       <div className='lg:h-screen bg-[#f9f4ef]' id='about'>

@@ -12,7 +12,7 @@ export const TeamCard = ({
       <div className="pt-12">
         <img
           className="rounded-full border-4 border-[#5065a5]"
-          src="https://pbs.twimg.com/profile_images/419098137710448640/AwZGWOKu_400x400.jpeg"
+          src={CardImage === "" ?  "https://pbs.twimg.com/profile_images/419098137710448640/AwZGWOKu_400x400.jpeg" : CardImage}
           width="150"
         />
       </div>
@@ -21,16 +21,16 @@ export const TeamCard = ({
       <div className="text-lg text-center px-4 lg:text-left lg:text-xl lg:px-8 pt-6">{CardDescription}</div>
       <div className="pt-12 flex justify-center space-x-4">
         <a href={CardMedia[0]}>
-          <img className="w-12" onclick="" src="/images/instagram.svg" alt="" />
+          <img className="w-12 hover:cursor-pointer" onClick={() => window.open("/", "_blank")} src="/images/instagram.svg" alt="" />
         </a>
         <a href={CardMedia[1]}>
-          <img className="w-12" onclick="" src="/images/github.svg" alt="" />
+          <img className="w-12 hover:cursor-pointer" onClick={() => window.open("/", "_blank")} src="/images/github.svg" alt="" />
         </a>
         <a href={CardMedia[2]}>
-          <img className="w-12" onclick="" src="/images/twitter.svg" alt="" />
+          <img className="w-12 hover:cursor-pointer" onClick={() => window.open("/", "_blank")} src="/images/twitter.svg" alt="" />
         </a>
         <a href={CardMedia[3]}>
-          <img className="w-12" onclick="" src="/images/email.svg" alt="" />
+          <img className="w-12 hover:cursor-pointer" onClick={() => window.open("/", "_blank")} src="/images/email.svg" alt="" />
         </a>
       </div>
     </div>
