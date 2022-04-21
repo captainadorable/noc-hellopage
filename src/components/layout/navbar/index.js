@@ -49,7 +49,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-50">
       
       <div className="flex flex-row py-8 justify-center space-x-16 items-center bg-[#f7eee5] lg:hidden">
         <div><img src="/logo.png" width="144" height="55"></img></div>

@@ -68,7 +68,7 @@ export const Team = () => {
         }
     ]
     return (
-        <div className="flex flex-col items-center space-y-16 pt-36">
+        <div className="flex flex-col items-center space-y-16 pt-36 xl:pt-56 lg:pt-48 ">
             <div className="text-4xl lg:text-6xl" id="team">Ekip Üyeleri</div>
 
             <div className="grid xl:grid-cols-3 grid-cols-1 md:grid-cols-2 xl:gap-8 md:space-y-0 md:gap-8 space-y-10 lg:space-y-0">
