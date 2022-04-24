@@ -7,10 +7,6 @@ export const Navbar = () => {
   
   const NavbarItems = [
     {
-      name: "Ana Sayfa",
-      href: "#home",
-    },
-    {
       name: "Biz Kimiz?",
       href: "#about",
     },
@@ -77,7 +73,7 @@ export const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex lg:flex-row lg:justify-between py-4 px-12 bg-[#f7eee5] sticky top-0">
-        <div><img src="/logo.png" width="167" height="55"></img></div>
+        <div><img src="/logo.png" width="167" height="55" className="hover:cursor-pointer" onClick={() => window.location.href = "#home"}></img></div>
         <div className="pt-4 flex flex-row space-x-10 text-xl">
           {NavbarItems.map((item) => (
             <div key={item.name} className="flex flex-row space-x-10" style={{"fontFamily" : "Lato", "fontWeight": "normal"}}>
