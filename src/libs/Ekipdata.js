@@ -16,31 +16,31 @@ export const Ekipdata = [
         usersocialmedias: [
             {
 
-                link:"",
+                link:"asd",
                 image:FiInstagram,
                 color : "text-pink-400"
             },
             {
 
-                link:"",
+                link:"asda",
                 image:FiTwitter,
                 color:"text-[#1ea4fe]"
             },
             {
 
-                link:"",
+                link:"asda",
                 image:FiMail,
                 color : "text-blue-500"
             },
             {
 
-                link:"",
+                link:"asd",
                 image:FiGithub,
                 color: "text-[#a7d129]"
             },
             {
 
-                link:"",
+                link:"asd",
                 image:FiYoutube,
                 color: "text-rose-400"
             },
@@ -56,31 +56,31 @@ export const Ekipdata = [
         usersocialmedias: [
             {
 
-                link:"",
+                link:"adsa",
                 image:FiInstagram,
                 color : "text-pink-400"
             },
             {
                 
-                link:"",
+                link:"asda",
                 image:FiTwitter,
                 color:"text-[#1ea4fe]"
             },
             {
                 
-                link:"",
+                link:"adsda",
                 image:FiMail,
                 color : "text-blue-500"
             },
             {
 
-                link:"",
+                link:"adas",
                 image:FiGithub,
                 color: "text-[#a7d129]"
             },
             {
 
-                link:"",
+                link:"asda",
                 image:FiYoutube,
                 color: "text-rose-400"
             },
@@ -96,31 +96,31 @@ export const Ekipdata = [
         usersocialmedias: [
             {
 
-                link:"",
+                link:"asda",
                 image:FiInstagram,
                 color : "text-pink-400"
             },
             {
 
-                link:"",
+                link:"asda",
                 image:FiTwitter,
                 color:"text-[#1ea4fe]"
             },
             {
 
-                link:"",
+                link:"asdda",
                 image:FiMail,
                 color : "text-blue-500"
             },
             {
 
-                link:"",
+                link:"dasd",
                 image:FiGithub,
                 color: "text-[#a7d129]"
             },
             {
                 
-                link:"",
+                link:"ads",
                 image:FiYoutube,
                 color: "text-rose-400"
             },
@@ -136,31 +136,31 @@ export const Ekipdata = [
         usersocialmedias: [
             {
 
-                link:"",
+                link:"sadsa",
                 image:FiInstagram,
                 color : "text-pink-400"
             },
             {
 
-                link:"",
+                link:"bdad",
                 image:FiTwitter,
                 color:"text-[#1ea4fe]"
             },
             {
 
-                link:"",
+                link:"adasd",
                 image:FiMail,
                 color : "text-blue-500"
             },
             {
 
-                link:"",
+                link:"dasda",
                 image:FiGithub,
                 color: "text-[#a7d129]"
             },
             {
 
-                link:"",
+                link:"asdad",
                 image:FiYoutube,
                 color: "text-rose-400"
             },
@@ -176,31 +176,31 @@ export const Ekipdata = [
         usersocialmedias: [
             {
 
-                link:"",
+                link:"adsdad",
                 image:FiInstagram,
                 color : "text-pink-400"
             },
             {
 
-                link:"",
+                link:"adasda",
                 image:FiTwitter,
                 color:"text-[#1ea4fe]"
             },
             {
 
-                link:"",
+                link:"asdas",
                 image:FiMail,
                 color : "text-blue-500"
             },
             {
 
-                link:"",
+                link:"adasda",
                 image:FiGithub,
                 color: "text-[#a7d129]"
             },
             {
 
-                link:"",
+                link:"asdas",
                 image:FiYoutube,
                 color: "text-rose-400"
             },

@@ -10,7 +10,7 @@ export const SliderData = [
         slidercss: "w-4/6 flex flex-col justify-center space-y-4 text-4xl"
     },
     {
-        id:2,
+        id:3,
         text:"Hocalar İle Birebir Çevrimiçi Özel Ders",
         buttontext:"Ders",
         buttoncss:"w-96 text-center font-medium text-[#f79d44] border-[#f79d44] hover:text-white hover:bg-[#f79d44] px-5 py-3 border-2 rounded-full text-2xl font-light",
@@ -19,7 +19,7 @@ export const SliderData = [
         slidercss: "w-4/6 flex flex-col items-center space-y-4 text-4xl pr-10"
     },
     {
-        id:3,
+        id:2,
         text:"Yaşıtları İle Pomodoro İmkanı",
         buttontext:"Pomodoro",
         buttoncss:"w-96 text-center text-white border-white border-2 font-medium hover:text-[#3a3a3c] hover:bg-white px-5 py-3 border-2 rounded-full text-2xl font-light",

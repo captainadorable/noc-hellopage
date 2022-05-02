@@ -38,10 +38,9 @@ useEffect(() => {
   
   
   return(    
-    <div className="">
-        <div className="flex flex-col ">
+        <div className="flex flex-col h-screen space-y-10">
             <div 
-            className={`${slider?.background} bg-cover ${slider?.id === 3 ? "bg-center" : ""}   xl:h-screen text-white pt-20`} >
+            className={`delay-100 duration-100 transistion h-full ${slider?.background} bg-cover ${slider?.id === 2 ? "bg-center" : "" || slider?.id === 3 ? "bg-right" : "" || slider?.id === 1 ? "bg-left" : ""} text-white pt-20`} >
                 <div className="h-5/6 flex flex-row items-center justify-center px-10 ">
                     <div className="w-1/6 flex justify-center">
                         <button onClick={() => Backslide()}>
@@ -52,7 +51,7 @@ useEffect(() => {
                         <div>
                             {slider?.text}
                         </div>
-                        <button onClick={() => window.open(`${slider?.href}`, slider?.href === "#BizKimiz" ? "_self" : "_blank")} className={slider?.buttoncss}>
+                        <button onClick={() => window.open(`${slider?.href}`, slider?.href === "#BizKimiz" ? "_self" : "_blank")} className={slider?.buttoncss} >
                             {slider?.buttontext}
                         </button>
                     </div>
@@ -63,15 +62,15 @@ useEffect(() => {
                         </button>
                     </div>
                 </div>
-                <div className={`h-1/6 border-t-4 border-white flex items-center px-10 justify-between`}>
+                <div id="BizKimiz" className={`h-1/6 border-t-4 border-white flex items-center px-10 justify-between`}>
                     <div className='flex space-x-2 items-center'>
-                        <button className={`rounded-full ${Id == 1 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(1)}>
+                        <button className={`rounded-full delay-100 duration-100 transistion ${Id == 1 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(1)}>
 
                         </button>
-                        <button className={`rounded-full ${Id == 2 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(2)}>
+                        <button className={`rounded-full delay-100 duration-100 transistion ${Id == 2 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(2)}>
 
                         </button>
-                        <button className={`rounded-full ${Id == 3 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(3)}>
+                        <button className={`rounded-full delay-100 duration-100 transistion ${Id == 3 ? "p-3" : "p-2"} bg-white `} onClick={() => setId(3)}>
 
                         </button>
 
@@ -89,7 +88,9 @@ useEffect(() => {
                     </div>
                 </div>
             </div>  
+            <div className='h-[5] w-full bg-screen'>
+
+            </div>
         </div>
-    </div>
 );
 }

@@ -10,8 +10,31 @@
 body {
     font-family: 'Red Hat Display';
     background-color: #f7eee5;
+    overflow: overlay;
+}
+::-webkit-scrollbar {
+    width: 15px;
+   
+}
+  
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-corner {
+    border-radius: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+    background: #2e4490; 
+    border-radius: 12px; 
+
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4668dc;
+}
 html {
     scroll-behavior: smooth;
 }
