@@ -21,7 +21,7 @@ export const  Paketler = () => {
                 </div> 
                 <div className="flex-col flex space-y-4">
                     {props.info.map(info => (
-                        <div className="flex flex-row space-x-2">
+                        <div className="flex flex-row space-x-2 break-all">
                             <img src="/images/tick.svg" alt="" />
                             <div className="text-[#344591] text-lg">{info}</div>
                         </div>
@@ -40,7 +40,7 @@ export const  Paketler = () => {
     <Layout img="#7a94f3" animation={false} nlc="hover:border-b-8 text-[#7a94f3] border-[#7a94f3] hover:text-[#5365a6] hover:border-[#5365a6]">
         <div className="pt-44 flex flex-col space-y-20 h-full px-20">
             <h1 className="text-center text-3xl text-[#7a94f3]">Paketler</h1>
-            <div className="grid grid-cols-3 gap-4 place-items-center">
+            <div className="grid lg:grid-cols-3 gap-4 place-items-center">
                 {Paket_data.map(paket => (
                     <Paket_card name={paket.name} price={paket.price} info={paket.info}/>
                 ))}

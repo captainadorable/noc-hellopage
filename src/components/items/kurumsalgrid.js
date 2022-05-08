@@ -25,7 +25,7 @@ export const Kurumsalgrid = () => {
                 <span>-</span>
                 <h1>Kurumsal</h1>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid xl:grid-cols-2 lg:grid-cols-1 gap-4">
                 {Kurumsaldata.map(data => (
                      <Card title={data.title} img={data.img} href={`/Kurumsal/${data.title}`} text={data.text}/>
                 ))}
